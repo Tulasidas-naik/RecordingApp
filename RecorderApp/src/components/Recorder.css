@@ -1,0 +1,26 @@
+.recorder{
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(211, 225, 120);
+}
+
+.recorder .audio-recorder-mic {
+    flex: 1;
+}
+
+.buttons{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.buttons button{
+    padding: 10px;
+    border-radius: 30px;
+}
